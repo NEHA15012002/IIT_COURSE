@@ -1,0 +1,117 @@
+body{
+  /* background-color: aqua;
+  background-image: url('../Images/butterfly.jpeg');
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-attachment: fixed;
+  background-size: 100% 100%; */
+  /* background: linear-gradient(to right,red, yellowgreen);*/
+  
+  background: linear-gradient(pink, purple);
+  background-attachment: fixed; 
+}
+ul{
+  list-style-type: none;
+  /* list-style-image: url(../Images/butterfly.jpeg); */
+  
+  
+}
+li{
+  text-decoration: none;
+}
+
+#a
+{
+    color: yellowgreen;
+}
+
+.cls_center
+{
+    text-align: center;
+}
+
+.color_cls
+{
+  color: whitesmoke;
+  background-color: black;
+}
+p
+{  
+   /* color: wheat;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 2px;
+    text-decoration: underline dotted;
+    font-size: large;
+    text-indent: 100px;
+    text-transform: capitalize;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-style: oblique;
+    font-variant: small-caps;
+    */
+   /* border-color: black;
+   border-width: 2px;
+   border-style: solid; */
+
+   border: 2px solid white;
+   /* seq can vary */
+   border-top: 1px whitesmoke solid;
+   border-radius: 20px;
+   box-shadow: 5px 5px 5px 5px black;
+   text-indent: 100px;
+
+}
+
+h1
+{
+  color: brown;
+  text-shadow: 2px 2px 0px white ;
+}
+
+h2
+{
+  color: purple;
+}
+
+div{
+  background-color:black;
+  color: rgb(255, 255, 255);
+  height: 50px;
+  line-height: 20px;
+  text-align: center;
+  text-indent: 100px;
+}
+
+
+img{
+  height: 200px;
+  width: 200px;
+  border: 2px white solid;
+  border-radius: 100px;
+  margin: 30%;
+  
+}
+
+/* sudo class implementation */
+a:link{
+  background-color: white;
+}
+
+a:visited{
+  background-color: wheat;
+}
+
+a:hover{
+  background-color: lightcoral;
+}
+
+a:active{
+  background-color: lightseagreen;
+}
+
+a{
+  color:black
+}
+/* universal selector : sabmein implement krna  */
+

@@ -1,0 +1,137 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document</title>
+  </head>
+  
+  <body>
+    <hr color="orange" size="10px" width="500px" />
+    <h1 align ="center" title="My heading">Demo Page 2</h1>
+    <hr color="green" size="10px" width="100%" />
+    <a href="index.html#s3" target="_blank">Home Page</a><br />
+    <a href="mailto:nagarwal_be20@thapar.edu">Mail</a
+    ><br /><!--Hard Coded mail hogi baad mein we will make it dynamic-->
+    <a href="tel: 8840874334"> Contact </a>
+    <!--Unordered Listing and in this bullets are by default if will want to change the bullet we can 
+         do it using attributes 
+         By default the type is disc
+         2 is circle
+         3 is square-->
+    <dl><!--Definition with titile and-->
+        <dt>
+            HTML
+        </dt>
+        <dd>
+            HTML is used to create Web pages..
+        </dd>
+
+    </dl>
+      <!-- There are two type of tags 
+      1. Block :Uses 100% width- dic,fieldset, p,h
+      2. Inline: Content ki width ke according- span(used in dynamic),b,i,em-->
+    
+      <fieldset> 
+        <legend align = "center"> Audio File</legend>
+        <audio controls>
+            <source src="../Images/house_lo.mp3">
+            <source src="../Images/house_lo.wav">
+        </audio>
+    </fieldset>
+    
+        
+    <fieldset> 
+        <legend align = "center"> Video File</legend>
+        <video width="100%" height="100%" autoplay muted>
+            <source src="../Images/demo.mp4" type="video/mp4">
+        </audio>
+    </fieldset>
+
+    <!--Moving text ke liye we use Marquee
+     Behavior
+     1. slide
+     2. scroll
+     3. alternate-->
+    <fieldset> 
+        <legend align = "center"> Marquee Demo</legend>
+        <Marquee 
+        scrollamount = "5" onmouseover="stop()"
+        onmouseout="start()"
+        direction = "left"
+        behavior = "alternate">This is Demo Text</Marquee>
+    </fieldset>
+    
+    
+      <div>
+        <style> </style>
+        <h2>This is Div Tag 1</h2>
+    </div>
+    <div> This is Div Tag 2</div>
+    <span> This is span</span>
+    <span> This is span 2</span>
+
+
+    <ul type="circle">
+      <li>Apple</li>
+      <li>Mango</li>
+      <li>Banana</li>
+      <li>Orange</li>
+    </ul>
+    <!--ordered listing by default type is 1 . We can use a/A/i any other will be treated as default-->
+    <ol type="a" start="5">
+      <!--if we want to start with e-->
+      <li>Apple</li>
+      <li>Mango</li>
+      <li value="9">
+        <!--to change the value in between we can change it and the rest will follow-->
+        Banana
+      </li>
+      <li>Orange</li>
+    </ol>
+    <img src="../Images/download.jpeg"width='500px' alt ="No Image Found" border="5px"><br>
+     Enter Name :    <input type="text"><br>
+     Enter Password: <input type="passward"><br>
+     Enter Email: <input type="email"></br>
+    
+
+
+
+    <table border="1px" bordercolor="black" width="400px" align="center" bgcolor ="skyblue" background="../Images/img1.avif" cellspacing ="0px" cellpadding="15px">
+        <tr><th>User Name</th><th> Email</th><th>Age</th></tr>
+        <tr>
+            <td>
+                1. First Cell
+            </td>
+            <td>2. Second cell</td>
+            <td>3. Third Cell</td>
+        </tr>
+        <tr align="center">
+            <td>
+                2. First Cell
+            </td>
+            <td>2. Second cell</td>
+            <td>2. Third Cell</td>
+        </tr>
+        <tr>
+            <td>
+                3. First Cell
+            </td>
+            <td>3. Second cell</td>
+            <td>3. Third Cell</td>
+        </tr>
+        <tr>
+            <td>
+                4. First Cell
+            </td>
+            <td>4. Second cell</td>
+            <td align ="center">4. Third Cell</td>
+        
+        </tr>
+        <tr>
+            <td colspan="2"> IIT Kanpur</td>
+            <td colspan="40">IIt Madras</td>
+        </tr>
+        <caption align="bottom">Table 1.1</caption>
+    </table>
+  </body>
+</html>
